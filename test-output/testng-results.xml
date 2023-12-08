@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43231" started-at="2023-12-05T12:59:12Z" finished-at="2023-12-05T12:59:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43231" started-at="2023-12-05T12:59:12Z" finished-at="2023-12-05T12:59:56Z">
+      <class name="testset.TestLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testset.TestLogin@357246de]" name="beforeSuite" is-config="true" duration-ms="50" started-at="2023-12-05T18:29:12Z" finished-at="2023-12-05T18:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testset.TestLogin@357246de]" name="beforeTest" is-config="true" duration-ms="9075" started-at="2023-12-05T18:29:12Z" finished-at="2023-12-05T18:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testset.TestLogin@357246de]" name="beforeClass" is-config="true" duration-ms="18278" started-at="2023-12-05T18:29:21Z" finished-at="2023-12-05T18:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:testset.TestLogin@357246de]" name="login" duration-ms="11911" started-at="2023-12-05T18:29:40Z" data-provider="userData" finished-at="2023-12-05T18:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lava@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8888888800a@A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testset.TestLogin@357246de]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:40Z" finished-at="2023-12-05T18:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testset.TestLogin@357246de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getUsername()[pri:2, instance:testset.TestLogin@357246de]" name="getUsername" duration-ms="537" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsername -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testset.TestLogin@357246de]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testset.TestLogin@357246de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testset.TestLogin@357246de]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signOut()[pri:3, instance:testset.TestLogin@357246de]" name="signOut" duration-ms="2351" started-at="2023-12-05T18:29:52Z" finished-at="2023-12-05T18:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testset.TestLogin@357246de]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-12-05T18:29:55Z" finished-at="2023-12-05T18:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testset.TestLogin@357246de]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:55Z" finished-at="2023-12-05T18:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testset.TestLogin@357246de]" name="afterTest" is-config="true" duration-ms="967" started-at="2023-12-05T18:29:55Z" finished-at="2023-12-05T18:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testset.TestLogin@357246de]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-12-05T18:29:56Z" finished-at="2023-12-05T18:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testset.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

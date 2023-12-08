@@ -23,7 +23,7 @@ public class OracleHomePage {
 	private WebElement LoginButton;
 
 	@FindBy(xpath = "//a[@data-lbl='profile:user-account']")
-	private WebElement profileName;
+	private WebElement profileName; 
 
 	@FindBy(xpath = "//a[text()='Sign Out']")
 	private WebElement signOut;

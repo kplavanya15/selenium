@@ -14,7 +14,7 @@ public class OracleHomePage {
 	private WebElement signinButton;
 
 	@FindBy(id = "sso_username")
-	private WebElement username;
+	private WebElement username; 
 
 	@FindBy(id = "ssopassword")
 	private WebElement password;
